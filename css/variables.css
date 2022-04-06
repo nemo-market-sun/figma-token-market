@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 06 Apr 2022 16:19:38 GMT
+ * Generated on Wed, 06 Apr 2022 16:25:37 GMT
  */
 
 :root {
@@ -68,6 +68,15 @@
   --button-text-button-tertiary-text-color-in-active: #9e9e9e;
   --button-text-button-tertiary-text-color-focussed: #0d0d0d;
   --button-text-button-tertiary-text-color-pressed: #3d3d3d;
+  --button-default-01: [object Object];
+  --button-default-02: [object Object];
+  --button-default-03: [object Object];
+  --button-default-04: [object Object];
+  --button-default-05: [object Object];
+  --button-light-01: [object Object];
+  --button-light-02: [object Object];
+  --button-light-03: [object Object];
+  --button-light-04: [object Object];
   --block-title-layout-spacing: 16;
   --block-title-layout-padding-top: 24;
   --block-title-layout-padding-right: 48;
@@ -78,6 +87,10 @@
   --block-title-text-body-color: #0d0d0d;
   --icon-common-color-active: #0d0d0d;
   --icon-common-color-in-active: #cfcfcf;
+  --container-radius-sm: 12;
+  --container-border-width-md: 2;
+  --container-border-width-sm: 1;
+  --container-border-width-none: 0;
   --container-padding-xsm: 12;
   --spacing-200: 8;
   --spacing-250: 10;
@@ -107,6 +120,27 @@
   --padding-container-xlg: 48;
   --padding-scaler: 8;
   --padding-base: 24;
+  --headline-default-01: [object Object];
+  --headline-default-02: [object Object];
+  --headline-default-03: [object Object];
+  --headline-default-04: [object Object];
+  --headline-default-05: [object Object];
+  --headline-default-06: [object Object];
+  --sub-headline-default-01: [object Object];
+  --sub-headline-default-02: [object Object];
+  --sub-headline-default-03: [object Object];
+  --sub-headline-default-04: [object Object];
+  --body-default-01: [object Object];
+  --body-default-02: [object Object];
+  --body-light-01: [object Object];
+  --body-light-02: [object Object];
+  --label-default-01: [object Object];
+  --caption-default-01: [object Object];
+  --caption-default-02: [object Object];
+  --caption-default-03: [object Object];
+  --caption-heavy-01: [object Object];
+  --caption-heavy-02: [object Object];
+  --caption-heavy-03: [object Object];
   --background-color-secondary-active: #ffffff;
   --background-color-secondary-in-active: #cfcfcf;
   --background-color-tertiary-active: #ffffff;
