@@ -1,223 +1,1259 @@
 {
-  "layout": {
-    "block": {
-      "container": {
-        "paddingTop": {
-          "value": 24,
-          "type": "spacing"
-        },
-        "paddingRight": {
-          "value": 24,
-          "type": "spacing"
-        },
-        "paddingBottom": {
-          "value": 32,
-          "type": "spacing"
-        },
-        "paddingLeft": {
-          "value": 24,
-          "type": "spacing"
-        }
-      }
-    },
-    "button": {
-      "actionBar": {
-        "general": {
-          "container": {
-            "padding": {
-              "all": {
-                "value": 12,
-                "type": "spacing"
-              }
-            }
-          }
-        }
-      },
-      "blockButton": {
-        "general": {
-          "container": {
-            "padding": {
-              "top": {
-                "value": 12,
-                "type": "spacing"
-              },
-              "right": {
-                "value": 24,
-                "type": "spacing"
-              },
-              "bottom": {
-                "value": 12,
-                "type": "spacing"
-              },
-              "left": {
-                "value": 24,
-                "type": "spacing"
-              }
-            }
-          }
-        }
-      }
-    },
-    "blockTitle": {
-      "layout": {
-        "spacing": {
-          "value": 16,
-          "type": "spacing"
-        },
-        "padding": {
-          "top": {
-            "value": 24,
-            "type": "spacing"
-          },
-          "right": {
-            "value": 48,
-            "type": "spacing"
-          },
-          "bottom": {
-            "value": 32,
-            "type": "spacing"
-          },
-          "left": {
-            "value": 24,
-            "type": "spacing"
-          }
-        }
-      }
-    },
+  "block": {
     "container": {
-      "padding": {
-        "xsm": {
-          "value": 12,
-          "type": "spacing"
-        }
-      }
-    },
-    "spacing": {
-      "200": {
-        "value": 8,
-        "description": "smaller value for gaps between blocks",
-        "type": "spacing"
-      },
-      "250": {
-        "value": 10,
-        "description": "smaller value for gaps between blocks",
-        "type": "spacing"
-      },
-      "300": {
-        "value": 12,
-        "description": "smaller value for gaps between blocks",
-        "type": "spacing"
-      },
-      "400": {
-        "value": 16,
-        "description": "default value for gaps between blocks",
-        "type": "spacing"
-      },
-      "500": {
-        "value": 20,
-        "description": "larger value for gaps between blocks",
-        "type": "spacing"
-      },
-      "600": {
+      "paddingTop": {
         "value": 24,
-        "description": "plenty value for gaps between blocks",
         "type": "spacing"
       },
-      "700": {
-        "value": 28,
+      "paddingRight": {
+        "value": 24,
         "type": "spacing"
       },
-      "800": {
+      "paddingBottom": {
         "value": 32,
         "type": "spacing"
       },
-      "900": {
-        "value": 36,
-        "type": "spacing"
-      },
-      "1000": {
-        "value": 40,
-        "type": "spacing"
-      },
-      "elements": {
-        "xsm": {
-          "value": 16,
-          "type": "spacing"
-        }
-      },
-      "scaler": {
-        "value": 4,
-        "type": "spacing"
-      },
-      "base": {
-        "value": 16,
+      "paddingLeft": {
+        "value": 24,
         "type": "spacing"
       }
-    },
-    "padding": {
-      "200": {
-        "value": 8,
-        "type": "spacing"
-      },
-      "250": {
-        "value": 12,
-        "type": "spacing"
-      },
-      "300": {
-        "value": 16,
-        "type": "spacing"
-      },
-      "350": {
-        "value": 20,
-        "type": "spacing"
-      },
-      "400": {
-        "value": 24,
-        "type": "spacing",
-        "description": "default value for padding"
-      },
-      "500": {
-        "value": 32,
-        "type": "spacing"
-      },
-      "600": {
-        "value": 40,
-        "type": "spacing"
-      },
-      "700": {
-        "value": 48,
-        "type": "spacing"
+    }
+  },
+  "button": {
+    "actionBar": {
+      "general": {
+        "container": {
+          "padding": {
+            "all": {
+              "value": 12,
+              "type": "spacing"
+            }
+          }
+        }
       },
       "container": {
-        "xsm": {
-          "value": 12,
-          "type": "spacing"
+        "color": {
+          "value": "#ffffff",
+          "type": "color"
         },
-        "sm": {
-          "value": 16,
-          "type": "spacing"
+        "borderColor--active": {
+          "value": "#ffffff",
+          "type": "other"
         },
-        "md": {
+        "borderColor--inActive": {
+          "value": "#f3f3f3",
+          "type": "other"
+        }
+      }
+    },
+    "blockButton": {
+      "general": {
+        "container": {
+          "padding": {
+            "top": {
+              "value": 12,
+              "type": "spacing"
+            },
+            "right": {
+              "value": 24,
+              "type": "spacing"
+            },
+            "bottom": {
+              "value": 12,
+              "type": "spacing"
+            },
+            "left": {
+              "value": 24,
+              "type": "spacing"
+            }
+          }
+        }
+      },
+      "primary": {
+        "container": {
+          "color--active": {
+            "value": "#2fd3cb",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#8aeee7",
+            "type": "color"
+          },
+          "color--focussed": {
+            "value": "#5ce1d8",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#2ab2af",
+            "type": "color"
+          }
+        },
+        "border": {
+          "color--active": {
+            "value": "#2fd3cb",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#8aeee7",
+            "type": "color"
+          },
+          "color--focussed": {
+            "value": "#5ce1d8",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#2ab2af",
+            "type": "color"
+          }
+        },
+        "text": {
+          "color--active": {
+            "value": "#0d0d0d",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#9e9e9e",
+            "type": "color"
+          },
+          "color--focussed": {
+            "value": "#0d0d0d",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#3d3d3d",
+            "type": "color"
+          }
+        }
+      },
+      "secondary": {
+        "container": {
+          "color--active": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#cfcfcf80",
+            "type": "color"
+          },
+          "color--focussed": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#e7e7e7",
+            "type": "color"
+          }
+        },
+        "border": {
+          "color--active": {
+            "value": "#cfcfcf",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#cfcfcf80",
+            "type": "color"
+          },
+          "color--focussed": {
+            "value": "#e7e7e7",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#b6b6b6",
+            "type": "color"
+          }
+        },
+        "text": {
+          "color--active": {
+            "value": "#0d0d0d",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#9e9e9e",
+            "type": "color"
+          },
+          "color--focussed": {
+            "value": "#0d0d0d",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#3d3d3d",
+            "type": "color"
+          }
+        }
+      },
+      "tertiary": {
+        "container": {
+          "color--active": {
+            "value": "#3d3d3d",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#cfcfcf80",
+            "type": "color"
+          },
+          "color--focussed": {
+            "value": "#555555",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#252525",
+            "type": "color"
+          }
+        },
+        "border": {
+          "color--active": {
+            "value": "#3d3d3d",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#cfcfcf80",
+            "type": "color"
+          },
+          "color--focussed": {
+            "value": "#555555",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#252525",
+            "type": "color"
+          }
+        },
+        "text-level1": {
+          "color--active": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#9e9e9e",
+            "type": "color"
+          },
+          "color--focussed": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#e7e7e7",
+            "type": "color"
+          }
+        },
+        "text-level2": {
+          "color--active": {
+            "value": "#0d0d0d",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#9e9e9e",
+            "type": "color"
+          },
+          "color--focussed": {
+            "value": "#0d0d0d",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#252525",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "textButton": {
+      "primary": {
+        "text": {
+          "color--active": {
+            "value": "#2fd3cb",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#8aeee7",
+            "type": "color",
+            "description": " "
+          },
+          "color--focussed": {
+            "value": "#5ce1d8",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#2ab2af",
+            "type": "color"
+          }
+        }
+      },
+      "secondary": {
+        "text": {
+          "color--active": {
+            "value": "#0d0d0d",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#9e9e9e",
+            "type": "color",
+            "description": " "
+          },
+          "color--focussed": {
+            "value": "#0d0d0d",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#3d3d3d",
+            "type": "color"
+          }
+        }
+      },
+      "tertiary": {
+        "text": {
+          "color--active": {
+            "value": "#0d0d0d",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#9e9e9e",
+            "type": "color",
+            "description": " "
+          },
+          "color--focussed": {
+            "value": "#0d0d0d",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#3d3d3d",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "blockTitle": {
+    "layout": {
+      "spacing": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "padding": {
+        "top": {
           "value": 24,
           "type": "spacing"
         },
-        "lg": {
-          "value": 32,
-          "type": "spacing"
-        },
-        "xlg": {
+        "right": {
           "value": 48,
           "type": "spacing"
+        },
+        "bottom": {
+          "value": 32,
+          "type": "spacing"
+        },
+        "left": {
+          "value": 24,
+          "type": "spacing"
+        }
+      }
+    },
+    "text": {
+      "heading-bg": {
+        "color": {
+          "value": "#e7e7e7",
+          "type": "color"
         }
       },
-      "scaler": {
-        "value": 8,
-        "type": "spacing"
+      "heading": {
+        "color": {
+          "value": "#0d0d0d",
+          "type": "color"
+        }
       },
-      "base": {
-        "value": 24,
+      "body": {
+        "color": {
+          "value": "#0d0d0d",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "icon": {
+    "common": {
+      "color--active": {
+        "value": "#0d0d0d",
+        "type": "color"
+      },
+      "color--inActive": {
+        "value": "#cfcfcf",
+        "type": "color"
+      }
+    }
+  },
+  "container": {
+    "padding": {
+      "xsm": {
+        "value": 12,
         "type": "spacing"
       }
+    }
+  },
+  "spacing": {
+    "200": {
+      "value": 8,
+      "description": "smaller value for gaps between blocks",
+      "type": "spacing"
+    },
+    "250": {
+      "value": 10,
+      "description": "smaller value for gaps between blocks",
+      "type": "spacing"
+    },
+    "300": {
+      "value": 12,
+      "description": "smaller value for gaps between blocks",
+      "type": "spacing"
+    },
+    "400": {
+      "value": 16,
+      "description": "default value for gaps between blocks",
+      "type": "spacing"
+    },
+    "500": {
+      "value": 20,
+      "description": "larger value for gaps between blocks",
+      "type": "spacing"
+    },
+    "600": {
+      "value": 24,
+      "description": "plenty value for gaps between blocks",
+      "type": "spacing"
+    },
+    "700": {
+      "value": 28,
+      "type": "spacing"
+    },
+    "800": {
+      "value": 32,
+      "type": "spacing"
+    },
+    "900": {
+      "value": 36,
+      "type": "spacing"
+    },
+    "1000": {
+      "value": 40,
+      "type": "spacing"
+    },
+    "elements": {
+      "xsm": {
+        "value": 16,
+        "type": "spacing"
+      }
+    },
+    "scaler": {
+      "value": 4,
+      "type": "spacing"
+    },
+    "base": {
+      "value": 16,
+      "type": "spacing"
+    }
+  },
+  "padding": {
+    "200": {
+      "value": 8,
+      "type": "spacing"
+    },
+    "250": {
+      "value": 12,
+      "type": "spacing"
+    },
+    "300": {
+      "value": 16,
+      "type": "spacing"
+    },
+    "350": {
+      "value": 20,
+      "type": "spacing"
+    },
+    "400": {
+      "value": 24,
+      "type": "spacing",
+      "description": "default value for padding"
+    },
+    "500": {
+      "value": 32,
+      "type": "spacing"
+    },
+    "600": {
+      "value": 40,
+      "type": "spacing"
+    },
+    "700": {
+      "value": 48,
+      "type": "spacing"
+    },
+    "container": {
+      "xsm": {
+        "value": 12,
+        "type": "spacing"
+      },
+      "sm": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "md": {
+        "value": 24,
+        "type": "spacing"
+      },
+      "lg": {
+        "value": 32,
+        "type": "spacing"
+      },
+      "xlg": {
+        "value": 48,
+        "type": "spacing"
+      }
+    },
+    "scaler": {
+      "value": 8,
+      "type": "spacing"
+    },
+    "base": {
+      "value": 24,
+      "type": "spacing"
+    }
+  },
+  "background": {
+    "color": {
+      "secondary": {
+        "active": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "inActive": {
+          "value": "#cfcfcf",
+          "type": "color"
+        }
+      },
+      "tertiary": {
+        "active": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "inActive": {
+          "value": "#6e6e6e",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "stroke": {
+    "color": {
+      "secondary": {
+        "active": {
+          "value": "#0d0d0d",
+          "type": "color"
+        },
+        "inActive": {
+          "value": "#cfcfcf",
+          "type": "color"
+        }
+      },
+      "primary": {
+        "active": {
+          "value": "#2fd3cb",
+          "type": "color"
+        },
+        "inActive": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "tertiary": {
+        "active": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "inActive": {
+          "value": "#f3f3f3",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "borderColor--active": {
+    "value": "#ffffff",
+    "type": "other"
+  },
+  "borderColor--inActive": {
+    "value": "#f3f3f3",
+    "type": "other"
+  },
+  "color": {
+    "main": {
+      "primary": {
+        "faded": {
+          "value": "#8aeee7",
+          "type": "color"
+        },
+        "highlighted": {
+          "value": "#5ce1d8",
+          "type": "color"
+        },
+        "default": {
+          "value": "#2fd3cb",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#2ab2af",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#09494f",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "faded": {
+          "value": "#aaffc9",
+          "type": "color"
+        },
+        "highlighted": {
+          "value": "#72fead",
+          "type": "color"
+        },
+        "default": {
+          "value": "#00ed96",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#0ac67d",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#034f33",
+          "type": "color"
+        }
+      },
+      "tertiary": {
+        "faded": {
+          "value": "#d3f5f1",
+          "type": "color"
+        },
+        "highlighted": {
+          "value": "#b0e4dd",
+          "type": "color"
+        },
+        "default": {
+          "value": "#96c9c3",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#5d9390",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#123f43",
+          "type": "color"
+        }
+      }
+    },
+    "sub-bgDark": {
+      "primary": {
+        "faded": {
+          "value": "#3d3d3d80",
+          "type": "color",
+          "description": "{opacity.200}"
+        },
+        "highlighted": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "default": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#b6b6b6",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#555555",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "faded": {
+          "value": "#3d3d3d80",
+          "type": "color",
+          "description": "{opacity.200}"
+        },
+        "highlighted": {
+          "value": "#e7e7e7",
+          "type": "color"
+        },
+        "default": {
+          "value": "#cfcfcf",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#6e6e6e",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#3d3d3d",
+          "type": "color"
+        }
+      },
+      "tertiary": {
+        "faded": {
+          "value": "#0d0d0d80",
+          "type": "color",
+          "description": "{opacity.200}"
+        },
+        "highlighted": {
+          "value": "#b6b6b6",
+          "type": "color"
+        },
+        "default": {
+          "value": "#9e9e9e",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#555555",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#0d0d0d",
+          "type": "color"
+        }
+      }
+    },
+    "sub-bgLight": {
+      "primary": {
+        "faded": {
+          "value": "#cfcfcf80",
+          "type": "color",
+          "description": "{opacity.200}"
+        },
+        "highlighted": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "default": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#e7e7e7",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#b6b6b6",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "faded": {
+          "value": "#cfcfcf80",
+          "type": "color",
+          "description": "{opacity.200}"
+        },
+        "highlighted": {
+          "value": "#e7e7e7",
+          "type": "color"
+        },
+        "default": {
+          "value": "#cfcfcf",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#b6b6b6",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#868686",
+          "type": "color"
+        }
+      },
+      "tertiary": {
+        "faded": {
+          "value": "#cfcfcf80",
+          "type": "color",
+          "description": "{opacity.200}"
+        },
+        "highlighted": {
+          "value": "#555555",
+          "type": "color"
+        },
+        "default": {
+          "value": "#3d3d3d",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#252525",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#0d0d0d",
+          "type": "color"
+        }
+      }
+    },
+    "text-bgDark": {
+      "primary": {
+        "faded": {
+          "value": "#555555",
+          "type": "color"
+        },
+        "highlighted": {
+          "value": "#0d0d0d",
+          "type": "color"
+        },
+        "default": {
+          "value": "#0d0d0d",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#3d3d3d",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#3d3d3d",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "faded": {
+          "value": "#555555",
+          "type": "color"
+        },
+        "highlighted": {
+          "value": "#0d0d0d",
+          "type": "color"
+        },
+        "default": {
+          "value": "#0d0d0d",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#252525",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#555555",
+          "type": "color"
+        }
+      },
+      "tertiary": {
+        "faded": {
+          "value": "#3d3d3d",
+          "type": "color"
+        },
+        "highlighted": {
+          "value": "#0d0d0d",
+          "type": "color"
+        },
+        "default": {
+          "value": "#0d0d0d",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#252525",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#3d3d3d",
+          "type": "color"
+        }
+      }
+    },
+    "text-bgLight": {
+      "primary": {
+        "faded": {
+          "value": "#9e9e9e",
+          "type": "color"
+        },
+        "highlighted": {
+          "value": "#0d0d0d",
+          "type": "color"
+        },
+        "default": {
+          "value": "#0d0d0d",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#3d3d3d",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#868686",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "faded": {
+          "value": "#9e9e9e",
+          "type": "color"
+        },
+        "highlighted": {
+          "value": "#0d0d0d",
+          "type": "color"
+        },
+        "default": {
+          "value": "#0d0d0d",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#3d3d3d",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#555555",
+          "type": "color"
+        }
+      },
+      "tertiary": {
+        "faded": {
+          "value": "#9e9e9e",
+          "type": "color"
+        },
+        "highlighted": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "default": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#e7e7e7",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#3d3d3d",
+          "type": "color"
+        }
+      }
+    },
+    "system": {
+      "primary": {
+        "faded": {
+          "value": "#ffb7b780",
+          "type": "color",
+          "description": "{opacity.200}"
+        },
+        "highlighted": {
+          "value": "#ff6565",
+          "type": "color"
+        },
+        "default": {
+          "value": "#ff0000",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#c20202",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#850101",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "opacity": {
+    "100": {
+      "value": 0.25,
+      "description": "oppacity dimned step 03",
+      "type": "opacity"
+    },
+    "200": {
+      "value": 0.5,
+      "description": "oppacity dimned step 02",
+      "type": "opacity"
+    },
+    "300": {
+      "value": 0.75,
+      "description": "oppacity dimned step 1",
+      "type": "opacity"
+    },
+    "400": {
+      "value": 1,
+      "description": "oppacity dimned step 0",
+      "type": "opacity"
+    },
+    "base": {
+      "value": 1,
+      "description": "oppacity dimming base value",
+      "type": "opacity"
+    },
+    "scaler": {
+      "value": 0.25,
+      "description": "oppacity dimming scaler value",
+      "type": "opacity"
+    }
+  },
+  "nemoMint": {
+    "50": {
+      "value": "#dcfdfb",
+      "type": "color",
+      "description": "subsidiary light colour of NemoMint colour pallete"
+    },
+    "100": {
+      "value": "#b9fcf7",
+      "type": "color",
+      "description": "subsidiary light colour of NemoMint colour pallete"
+    },
+    "200": {
+      "value": "#8aeee7",
+      "type": "color",
+      "description": "subsidiary light colour of NemoMint colour pallete"
+    },
+    "300": {
+      "value": "#5ce1d8",
+      "type": "color",
+      "description": "subsidiary light colour of NemoMint colour pallete"
+    },
+    "400": {
+      "value": "#2fd3cb",
+      "type": "color",
+      "description": "main colour of NemoMint colour pallete"
+    },
+    "500": {
+      "value": "#2ab2af",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoMint colour pallete"
+    },
+    "600": {
+      "value": "#209091",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoMint colour pallete"
+    },
+    "700": {
+      "value": "#146c70",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoMint colour pallete"
+    },
+    "800": {
+      "value": "#09494f",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoMint colour pallete"
+    },
+    "900": {
+      "value": "#02282e",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoMint colour pallete"
+    }
+  },
+  "nemoGreen": {
+    "50": {
+      "value": "#d5ffe1",
+      "type": "color",
+      "description": "subsidiary light colour of NemoGreen colour pallete"
+    },
+    "100": {
+      "value": "#aaffc9",
+      "type": "color",
+      "description": "subsidiary light colour of NemoGreen colour pallete"
+    },
+    "200": {
+      "value": "#72fead",
+      "type": "color",
+      "description": "subsidiary light colour of NemoGreen colour pallete"
+    },
+    "300": {
+      "value": "#39f69c",
+      "type": "color",
+      "description": "subsidiary light colour of NemoGreen colour pallete"
+    },
+    "400": {
+      "value": "#00ed96",
+      "type": "color",
+      "description": "main colour of NemoGreen colour pallete"
+    },
+    "500": {
+      "value": "#0ac67d",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoGreen colour pallete"
+    },
+    "600": {
+      "value": "#0b9e65",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoGreen colour pallete"
+    },
+    "700": {
+      "value": "#08774c",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoGreen colour pallete"
+    },
+    "800": {
+      "value": "#034f33",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoGreen colour pallete"
+    },
+    "900": {
+      "value": "#01271a",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoGreen colour pallete"
+    }
+  },
+  "nemoMintGray": {
+    "50": {
+      "value": "#e9faf8",
+      "type": "color",
+      "description": "subsidiary light colour of NemoMintGray colour pallete"
+    },
+    "100": {
+      "value": "#d3f5f1",
+      "type": "color",
+      "description": "subsidiary light colour of NemoMintGray colour pallete"
+    },
+    "200": {
+      "value": "#b0e4dd",
+      "type": "color",
+      "description": "subsidiary light colour of NemoMintGray colour pallete"
+    },
+    "300": {
+      "value": "#96c9c3",
+      "type": "color",
+      "description": "subsidiary light colour of NemoMintGray colour pallete"
+    },
+    "400": {
+      "value": "#7aaeaa",
+      "type": "color",
+      "description": "main colour of NemoMintGray colour pallete"
+    },
+    "500": {
+      "value": "#5d9390",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoMintGray colour pallete"
+    },
+    "600": {
+      "value": "#417877",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoMintGray colour pallete"
+    },
+    "700": {
+      "value": "#275c5d",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoMintGray colour pallete"
+    },
+    "800": {
+      "value": "#123f43",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoMintGray colour pallete"
+    },
+    "900": {
+      "value": "#052428",
+      "type": "color",
+      "description": "subsidiary dark colour of NemoMintGray colour pallete"
+    }
+  },
+  "grayscale": {
+    "0": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "pure white"
+    },
+    "50": {
+      "value": "#f3f3f3",
+      "type": "color",
+      "description": "main light colour of Grayscale colour pallete"
+    },
+    "100": {
+      "value": "#e7e7e7",
+      "type": "color",
+      "description": "subsidiary light colour of Grayscale colour pallete"
+    },
+    "200": {
+      "value": "#cfcfcf",
+      "type": "color",
+      "description": "subsidiary light colour of Grayscale colour pallete"
+    },
+    "300": {
+      "value": "#b6b6b6",
+      "type": "color",
+      "description": "subsidiary light colour of Grayscale colour pallete"
+    },
+    "400": {
+      "value": "#9e9e9e",
+      "type": "color",
+      "description": "subsidiary light colour of Grayscale colour pallete"
+    },
+    "500": {
+      "value": "#868686",
+      "type": "color",
+      "description": "subsidiary dark colour of Grayscale colour pallete"
+    },
+    "600": {
+      "value": "#6e6e6e",
+      "type": "color",
+      "description": "subsidiary dark colour of Grayscale colour pallete"
+    },
+    "700": {
+      "value": "#555555",
+      "type": "color",
+      "description": "subsidiary dark colour of Grayscale colour pallete"
+    },
+    "800": {
+      "value": "#3d3d3d",
+      "type": "color",
+      "description": "subsidiary dark colour of Grayscale colour pallete"
+    },
+    "900": {
+      "value": "#252525",
+      "type": "color",
+      "description": "main dark colour of Grayscale colour pallete"
+    },
+    "1000": {
+      "value": "#0d0d0d",
+      "type": "color",
+      "description": "pure black"
+    }
+  },
+  "systemRed": {
+    "50": {
+      "value": "#ffeded",
+      "type": "color",
+      "description": "subsidiary light colour of System colour pallete"
+    },
+    "100": {
+      "value": "#ffdada",
+      "type": "color",
+      "description": "subsidiary light colour of System colour pallete"
+    },
+    "200": {
+      "value": "#ffb7b7",
+      "type": "color",
+      "description": "subsidiary light colour of System colour pallete"
+    },
+    "300": {
+      "value": "#ff9090",
+      "type": "color",
+      "description": "subsidiary light colour of System colour pallete"
+    },
+    "400": {
+      "value": "#ff6565",
+      "type": "color",
+      "description": "subsidiary light colour of System colour pallete"
+    },
+    "500": {
+      "value": "#ff3636",
+      "type": "color",
+      "description": "subsidiary dark colour of System colour pallete"
+    },
+    "600": {
+      "value": "#ff0000",
+      "type": "color",
+      "description": "main colour of System colour pallete"
+    },
+    "700": {
+      "value": "#c20202",
+      "type": "color",
+      "description": "subsidiary dark colour of System colour pallete"
+    },
+    "800": {
+      "value": "#850101",
+      "type": "color",
+      "description": "subsidiary dark colour of System colour pallete"
+    },
+    "900": {
+      "value": "#470000",
+      "type": "color",
+      "description": "subsidiary dark colour of System colour pallete"
     }
   }
 }
