@@ -1,16 +1,50 @@
 /**
  * Do not edit directly
- * Generated on Wed, 06 Apr 2022 10:49:14 GMT
+ * Generated on Wed, 06 Apr 2022 12:07:14 GMT
  */
 
 :root {
-  --colors-red-300: #FCA5A5;
-  --colors-red-500: #EF4444;
-  --colors-red-700: #B91C1C;
-  --colors-black: #000000;
-  --colors-white: #ffffff;
-  --spacing-sm: 4;
-  --spacing-md: 8;
-  --spacing-lg: 16;
-  --spacing-xl: 32;
+  --layout-block-container-padding-top: 24;
+  --layout-block-container-padding-right: 24;
+  --layout-block-container-padding-bottom: 32;
+  --layout-block-container-padding-left: 24;
+  --layout-button-action-bar-general-container-padding-all: 12;
+  --layout-button-block-button-general-container-padding-top: 12;
+  --layout-button-block-button-general-container-padding-right: 24;
+  --layout-button-block-button-general-container-padding-bottom: 12;
+  --layout-button-block-button-general-container-padding-left: 24;
+  --layout-block-title-layout-spacing: 16;
+  --layout-block-title-layout-padding-top: 24;
+  --layout-block-title-layout-padding-right: 48;
+  --layout-block-title-layout-padding-bottom: 32;
+  --layout-block-title-layout-padding-left: 24;
+  --layout-container-padding-xsm: 12;
+  --layout-spacing-200: 8;
+  --layout-spacing-250: 10;
+  --layout-spacing-300: 12;
+  --layout-spacing-400: 16;
+  --layout-spacing-500: 20;
+  --layout-spacing-600: 24;
+  --layout-spacing-700: 28;
+  --layout-spacing-800: 32;
+  --layout-spacing-900: 36;
+  --layout-spacing-1000: 40;
+  --layout-spacing-elements-xsm: 16;
+  --layout-spacing-scaler: 4;
+  --layout-spacing-base: 16;
+  --layout-padding-200: 8;
+  --layout-padding-250: 12;
+  --layout-padding-300: 16;
+  --layout-padding-350: 20;
+  --layout-padding-400: 24;
+  --layout-padding-500: 32;
+  --layout-padding-600: 40;
+  --layout-padding-700: 48;
+  --layout-padding-container-xsm: 12;
+  --layout-padding-container-sm: 16;
+  --layout-padding-container-md: 24;
+  --layout-padding-container-lg: 32;
+  --layout-padding-container-xlg: 48;
+  --layout-padding-scaler: 8;
+  --layout-padding-base: 24;
 }
