@@ -954,6 +954,396 @@
       }
     }
   },
+  "radius": {
+    "100": {
+      "value": 8,
+      "description": "smallest border radious value",
+      "type": "borderRadius"
+    },
+    "200": {
+      "value": 12,
+      "description": "more smaller border radious value",
+      "type": "borderRadius"
+    },
+    "300": {
+      "value": 16,
+      "description": "smaller border radious value",
+      "type": "borderRadius"
+    },
+    "400": {
+      "value": 20,
+      "description": "default value for border radious",
+      "type": "borderRadius"
+    },
+    "500": {
+      "value": 24,
+      "description": "larger value for border radious",
+      "type": "borderRadius"
+    },
+    "600": {
+      "value": 28,
+      "description": "larger value for border radious",
+      "type": "borderRadius"
+    },
+    "700": {
+      "value": 32,
+      "type": "borderRadius"
+    },
+    "800": {
+      "value": 36,
+      "type": "borderRadius"
+    },
+    "base": {
+      "value": 20,
+      "type": "borderRadius"
+    },
+    "scaler": {
+      "value": 4,
+      "type": "borderRadius"
+    }
+  },
+  "borderWidth": {
+    "0": {
+      "value": 0,
+      "type": "borderWidth"
+    },
+    "100": {
+      "value": 1,
+      "type": "borderWidth"
+    },
+    "200": {
+      "value": 2,
+      "type": "borderWidth"
+    }
+  },
+  "shadow": {
+    "0": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 0,
+        "spread": 0,
+        "color": "#ffffff00",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "100": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 8,
+        "spread": 0,
+        "color": "#0000001f",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "description": "opacity 12%"
+    },
+    "150": {
+      "value": {
+        "x": 0,
+        "y": 2,
+        "blur": 8,
+        "spread": 0,
+        "color": "#00000033",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "description": "opacity 12%"
+    },
+    "200": {
+      "value": {
+        "x": 0,
+        "y": 4,
+        "blur": 18,
+        "spread": 0,
+        "color": "#00000040",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "description": "opacity 25%"
+    }
+  },
+  "glow": {
+    "white": {
+      "100": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 6,
+          "spread": 0,
+          "color": "#ffffff",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "opacity 100%"
+      }
+    },
+    "main": {
+      "100": {
+        "value": {
+          "x": 0,
+          "y": 0,
+          "blur": 6,
+          "spread": 0,
+          "color": "#2fd3cb80",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "opacity 50%"
+      }
+    }
+  },
+  "size": {
+    "100": {
+      "value": 8,
+      "type": "sizing"
+    },
+    "200": {
+      "value": 12,
+      "type": "sizing"
+    },
+    "300": {
+      "value": 16,
+      "type": "sizing"
+    },
+    "400": {
+      "value": 20,
+      "type": "sizing"
+    },
+    "500": {
+      "value": 24,
+      "type": "sizing"
+    },
+    "600": {
+      "value": 28,
+      "type": "sizing"
+    },
+    "700": {
+      "value": 32,
+      "type": "sizing"
+    },
+    "800": {
+      "value": 36,
+      "type": "sizing"
+    },
+    "900": {
+      "value": 40,
+      "type": "sizing"
+    },
+    "1000": {
+      "value": 44,
+      "type": "sizing"
+    },
+    "1100": {
+      "value": 48,
+      "type": "sizing"
+    },
+    "1200": {
+      "value": 52,
+      "type": "sizing"
+    },
+    "1300": {
+      "value": 56,
+      "type": "sizing"
+    },
+    "1400": {
+      "value": 60,
+      "type": "sizing"
+    },
+    "1500": {
+      "value": 64,
+      "type": "sizing"
+    },
+    "1600": {
+      "value": 68,
+      "type": "sizing"
+    },
+    "1700": {
+      "value": 72,
+      "type": "sizing"
+    },
+    "1800": {
+      "value": 76,
+      "type": "sizing"
+    },
+    "1900": {
+      "value": 80,
+      "type": "sizing"
+    },
+    "2000": {
+      "value": 84,
+      "type": "sizing"
+    },
+    "2400": {
+      "value": 100,
+      "type": "sizing"
+    },
+    "2700": {
+      "value": 112,
+      "type": "sizing"
+    },
+    "base": {
+      "value": 20,
+      "type": "sizing"
+    },
+    "scaler": {
+      "value": 4,
+      "type": "sizing"
+    }
+  },
+  "fontFamily": {
+    "main": {
+      "value": "Pretendard Variable",
+      "type": "fontFamilies",
+      "description": "Main font families"
+    }
+  },
+  "lineHeight": {
+    "50": {
+      "value": "130%",
+      "type": "lineHeights",
+      "description": "use for headline, sub-headline, button"
+    },
+    "100": {
+      "value": "150%",
+      "type": "lineHeights",
+      "description": "Use for body, label, caption"
+    }
+  },
+  "fontWeight": {
+    "300": {
+      "value": "Light",
+      "type": "fontWeights",
+      "description": "Pretendard Light, 300"
+    },
+    "400": {
+      "value": "Regular",
+      "type": "fontWeights",
+      "description": "Pretendard Regular, 400"
+    },
+    "700": {
+      "value": "Bold",
+      "type": "fontWeights",
+      "description": "Pretendard Bold, 700"
+    },
+    "800": {
+      "value": "ExtraBold",
+      "type": "fontWeights",
+      "description": "Pretendard ExtraBold, 800"
+    }
+  },
+  "fontSize": {
+    "100": {
+      "value": 10,
+      "type": "fontSizes",
+      "description": "Use for Caption_03"
+    },
+    "200": {
+      "value": 12,
+      "type": "fontSizes",
+      "description": "Use for Caption_02"
+    },
+    "300": {
+      "value": 14,
+      "type": "fontSizes",
+      "description": "Use for Caption_01"
+    },
+    "400": {
+      "value": 16,
+      "type": "fontSizes",
+      "description": "base value for scaling and use for Body_02, Body_04, Label_01, Button_03, Button_06"
+    },
+    "500": {
+      "value": 18,
+      "type": "fontSizes",
+      "description": "Use for Sub-Headline_02, Button_02, Button_05, Body_01, Body_03"
+    },
+    "600": {
+      "value": 20,
+      "type": "fontSizes",
+      "description": "Use for Headline_06, Sub-Headline_01, Button_01, Button_04"
+    },
+    "700": {
+      "value": 22,
+      "type": "fontSizes",
+      "description": "Use for Headline_05"
+    },
+    "800": {
+      "value": 24,
+      "type": "fontSizes",
+      "description": "Use for Headline_04"
+    },
+    "1000": {
+      "value": 28,
+      "type": "fontSizes",
+      "description": "Use for Headline_03"
+    },
+    "1200": {
+      "value": 32,
+      "type": "fontSizes",
+      "description": "Use for Headline_02"
+    },
+    "1600": {
+      "value": 40,
+      "type": "fontSizes",
+      "description": "Use for Headline_01"
+    },
+    "base": {
+      "value": 16,
+      "type": "fontSizes",
+      "description": "Base value for font scaling"
+    },
+    "scaler": {
+      "value": 2,
+      "description": "Scaler value for font scaling",
+      "type": "fontSizes"
+    }
+  },
+  "letterSpacing": {
+    "100": {
+      "value": "0%",
+      "type": "letterSpacing",
+      "description": "Default letter spacing"
+    }
+  },
+  "paragraphSpacing": {
+    "0": {
+      "value": 0,
+      "type": "paragraphSpacing",
+      "description": "Default paragraph spacing"
+    }
+  },
+  "textCase": {
+    "default": {
+      "value": "none",
+      "type": "textCase",
+      "description": "Default text case"
+    },
+    "emphasised": {
+      "value": "uppercase",
+      "type": "textCase",
+      "description": "Text emphasised (using uppercases)"
+    }
+  },
+  "textDecoration": {
+    "default": {
+      "value": "none",
+      "type": "textDecoration",
+      "description": "Default text decoration"
+    },
+    "link": {
+      "value": "underline",
+      "description": "Text decoration for link contents",
+      "type": "textDecoration"
+    },
+    "censored": {
+      "value": "line-through",
+      "description": "Text decoration for censored contents",
+      "type": "textDecoration"
+    }
+  },
   "opacity": {
     "100": {
       "value": 0.25,
