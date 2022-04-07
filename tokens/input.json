@@ -509,6 +509,52 @@
       }
     }
   },
+  "input": {
+    "general": {
+      "container": {
+        "padding": {
+          "all": {
+            "value": 12,
+            "type": "spacing"
+          }
+        },
+        "color--active": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "color--inActive": {
+          "value": "#cfcfcf80",
+          "type": "color"
+        },
+        "color--focussed": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "color--pressed": {
+          "value": "#e7e7e7",
+          "type": "color"
+        },
+        "color--activated": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "color--caution": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      }
+    },
+    "searchBar": {
+      "container": {
+        "padding": {
+          "left": {
+            "value": 20,
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
   "icon": {
     "common": {
       "color--active": {
@@ -648,12 +694,16 @@
       "type": "spacing"
     },
     "container": {
-      "xsm": {
+      "xxsm": {
         "value": 12,
         "type": "spacing"
       },
-      "sm": {
+      "xsm": {
         "value": 16,
+        "type": "spacing"
+      },
+      "sm": {
+        "value": 20,
         "type": "spacing"
       },
       "md": {
