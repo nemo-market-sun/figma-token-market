@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 07 Apr 2022 10:12:45 GMT
+// Generated on Thu, 07 Apr 2022 11:02:10 GMT
 
 $button-action-bar-container-radius: 12;
 $button-action-bar-container-color: #ffffff;
@@ -74,6 +74,19 @@ $button-light-01: [object Object];
 $button-light-02: [object Object];
 $button-light-03: [object Object];
 $button-light-04: [object Object];
+$input-text-input-border-width-default: 1;
+$input-text-input-border-color-active: #cfcfcf;
+$input-text-input-border-color-in-active: #cfcfcf80;
+$input-text-input-container-padding-left: 20;
+$input-general-border-width-activated: 2;
+$input-general-container-padding-all: 12;
+$input-general-container-spacing: 12;
+$input-general-container-color-active: #ffffff;
+$input-general-container-color-in-active: #cfcfcf80;
+$input-general-container-color-focussed: #ffffff;
+$input-general-container-color-pressed: #e7e7e7;
+$input-general-container-color-activated: #ffffff;
+$input-general-container-color-caution: #ffffff;
 $block-container-padding-top: 24;
 $block-container-padding-right: 24;
 $block-container-padding-bottom: 32;
@@ -86,14 +99,6 @@ $block-title-layout-padding-left: 24;
 $block-title-text-heading-bg-color: #e7e7e7;
 $block-title-text-heading-color: #0d0d0d;
 $block-title-text-body-color: #0d0d0d;
-$input-general-container-padding-all: 12;
-$input-general-container-color-active: #ffffff;
-$input-general-container-color-in-active: #cfcfcf80;
-$input-general-container-color-focussed: #ffffff;
-$input-general-container-color-pressed: #e7e7e7;
-$input-general-container-color-activated: #ffffff;
-$input-general-container-color-caution: #ffffff;
-$input-search-bar-container-padding-left: 20;
 $icon-common-color-active: #0d0d0d;
 $icon-common-color-in-active: #cfcfcf;
 $container-radius-sm: 12;
@@ -112,6 +117,7 @@ $spacing-800: 32;
 $spacing-900: 36;
 $spacing-1000: 40;
 $spacing-elements-xsm: 16;
+$spacing-elements-xxsm: 12;
 $spacing-scaler: 4;
 $spacing-base: 16;
 $padding-200: 8;

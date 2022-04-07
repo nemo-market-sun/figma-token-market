@@ -443,6 +443,76 @@
       }
     }
   },
+  "input": {
+    "textInput": {
+      "border": {
+        "width--default": {
+          "value": 1,
+          "type": "borderWidth"
+        },
+        "color--active": {
+          "value": "#cfcfcf",
+          "type": "color"
+        },
+        "color--inActive": {
+          "value": "#cfcfcf80",
+          "type": "color"
+        }
+      },
+      "container": {
+        "padding": {
+          "left": {
+            "value": 20,
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "general": {
+      "border": {
+        "width--activated": {
+          "value": 2,
+          "type": "borderWidth"
+        }
+      },
+      "container": {
+        "padding": {
+          "all": {
+            "value": 12,
+            "type": "spacing"
+          }
+        },
+        "spacing": {
+          "value": 12,
+          "type": "spacing"
+        },
+        "color--active": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "color--inActive": {
+          "value": "#cfcfcf80",
+          "type": "color"
+        },
+        "color--focussed": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "color--pressed": {
+          "value": "#e7e7e7",
+          "type": "color"
+        },
+        "color--activated": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "color--caution": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      }
+    }
+  },
   "block": {
     "container": {
       "paddingTop": {
@@ -505,52 +575,6 @@
         "color": {
           "value": "#0d0d0d",
           "type": "color"
-        }
-      }
-    }
-  },
-  "input": {
-    "general": {
-      "container": {
-        "padding": {
-          "all": {
-            "value": 12,
-            "type": "spacing"
-          }
-        },
-        "color--active": {
-          "value": "#ffffff",
-          "type": "color"
-        },
-        "color--inActive": {
-          "value": "#cfcfcf80",
-          "type": "color"
-        },
-        "color--focussed": {
-          "value": "#ffffff",
-          "type": "color"
-        },
-        "color--pressed": {
-          "value": "#e7e7e7",
-          "type": "color"
-        },
-        "color--activated": {
-          "value": "#ffffff",
-          "type": "color"
-        },
-        "color--caution": {
-          "value": "#ffffff",
-          "type": "color"
-        }
-      }
-    },
-    "searchBar": {
-      "container": {
-        "padding": {
-          "left": {
-            "value": 20,
-            "type": "spacing"
-          }
         }
       }
     }
@@ -647,6 +671,10 @@
     "elements": {
       "xsm": {
         "value": 16,
+        "type": "spacing"
+      },
+      "xxsm": {
+        "value": 12,
         "type": "spacing"
       }
     },
