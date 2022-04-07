@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 07 Apr 2022 11:02:10 GMT
+// Generated on Thu, 07 Apr 2022 11:50:02 GMT
 
 $button-action-bar-container-radius: 12;
 $button-action-bar-container-color: #ffffff;
@@ -65,6 +65,12 @@ $button-text-button-tertiary-text-color-active: #0d0d0d;
 $button-text-button-tertiary-text-color-in-active: #9e9e9e;
 $button-text-button-tertiary-text-color-focussed: #0d0d0d;
 $button-text-button-tertiary-text-color-pressed: #3d3d3d;
+$button-input-icon-general-color-active: #3d3d3d;
+$button-input-icon-general-color-in-active: #0d0d0d80;
+$button-input-icon-general-color-focussed: #555555;
+$button-input-icon-general-color-pressed: #252525;
+$button-input-icon-general-color-activated: #3d3d3d;
+$button-input-icon-general-color-caution: #ff0000;
 $button-default-01: [object Object];
 $button-default-02: [object Object];
 $button-default-03: [object Object];
@@ -77,8 +83,12 @@ $button-light-04: [object Object];
 $input-text-input-border-width-default: 1;
 $input-text-input-border-color-active: #cfcfcf;
 $input-text-input-border-color-in-active: #cfcfcf80;
+$input-text-input-border-color-focussed: #e7e7e7;
+$input-text-input-border-color-pressed: #b6b6b6;
 $input-text-input-container-padding-left: 20;
 $input-general-border-width-activated: 2;
+$input-general-border-color-activated: #2fd3cb;
+$input-general-border-color-caution: #ff6565;
 $input-general-container-padding-all: 12;
 $input-general-container-spacing: 12;
 $input-general-container-color-active: #ffffff;

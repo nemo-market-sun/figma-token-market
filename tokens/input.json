@@ -321,6 +321,36 @@
         }
       }
     },
+    "input": {
+      "icon": {
+        "general": {
+          "color--active": {
+            "value": "#3d3d3d",
+            "type": "color"
+          },
+          "color--inActive": {
+            "value": "#0d0d0d80",
+            "type": "color"
+          },
+          "color--focussed": {
+            "value": "#555555",
+            "type": "color"
+          },
+          "color--pressed": {
+            "value": "#252525",
+            "type": "color"
+          },
+          "color--activated": {
+            "value": "#3d3d3d",
+            "type": "color"
+          },
+          "color--caution": {
+            "value": "#ff0000",
+            "type": "color"
+          }
+        }
+      }
+    },
     "default": {
       "01": {
         "value": {
@@ -457,6 +487,14 @@
         "color--inActive": {
           "value": "#cfcfcf80",
           "type": "color"
+        },
+        "color--focussed": {
+          "value": "#e7e7e7",
+          "type": "color"
+        },
+        "color--pressed": {
+          "value": "#b6b6b6",
+          "type": "color"
         }
       },
       "container": {
@@ -473,6 +511,14 @@
         "width--activated": {
           "value": 2,
           "type": "borderWidth"
+        },
+        "color--activated": {
+          "value": "#2fd3cb",
+          "type": "color"
+        },
+        "color--caution": {
+          "value": "#ff6565",
+          "type": "color"
         }
       },
       "container": {
