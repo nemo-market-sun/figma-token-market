@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 07 Apr 2022 12:16:28 GMT
+ * Generated on Thu, 07 Apr 2022 18:35:12 GMT
  */
 
 :root {
@@ -122,7 +122,9 @@
   --block-title-layout-padding-left: 24;
   --block-title-text-heading-bg-color: #e7e7e7;
   --block-title-text-heading-color: #0d0d0d;
+  --block-title-text-heading-color-caution: #ff0000;
   --block-title-text-body-color: #0d0d0d;
+  --block-title-text-body-color-caution: #ff0000;
   --icon-common-color-active: #0d0d0d;
   --icon-common-color-in-active: #cfcfcf;
   --container-radius-sm: 12;
@@ -170,6 +172,7 @@
   --sub-headline-default-02: [object Object];
   --sub-headline-default-03: [object Object];
   --sub-headline-default-04: [object Object];
+  --password-default-01: [object Object];
   --body-default-01: [object Object];
   --body-default-02: [object Object];
   --body-light-01: [object Object];
@@ -317,6 +320,7 @@
   --size-base: 20rem;
   --size-scaler: 4rem;
   --font-family-main: Pretendard Variable;
+  --font-family-password: Password;
   --line-height-50: 130%;
   --line-height-100: 150%;
   --font-weight-300: Light;

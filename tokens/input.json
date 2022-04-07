@@ -669,11 +669,19 @@
         "color": {
           "value": "#0d0d0d",
           "type": "color"
+        },
+        "color--caution": {
+          "value": "#ff0000",
+          "type": "color"
         }
       },
       "body": {
         "color": {
           "value": "#0d0d0d",
+          "type": "color"
+        },
+        "color--caution": {
+          "value": "#ff0000",
           "type": "color"
         }
       }
@@ -985,6 +993,23 @@
           "fontWeight": "Bold",
           "lineHeight": "130%",
           "fontSize": 14,
+          "letterSpacing": "0%",
+          "paragraphSpacing": 0,
+          "textCase": "none",
+          "textDecoration": "none"
+        },
+        "type": "typography"
+      }
+    }
+  },
+  "password": {
+    "default": {
+      "01": {
+        "value": {
+          "fontFamily": "Password",
+          "fontWeight": "Regular",
+          "lineHeight": "130%",
+          "fontSize": 16,
           "letterSpacing": "0%",
           "paragraphSpacing": 0,
           "textCase": "none",
@@ -1835,7 +1860,11 @@
     "main": {
       "value": "Pretendard Variable",
       "type": "fontFamilies",
-      "description": "Main font families"
+      "description": " "
+    },
+    "password": {
+      "value": "Password",
+      "type": "fontFamilies"
     }
   },
   "lineHeight": {
