@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 08 Apr 2022 04:40:26 GMT
+ * Generated on Fri, 08 Apr 2022 05:20:18 GMT
  */
 
 :root {
@@ -136,6 +136,7 @@
   --body-light-02: [object Object];
   --icon-common-color-active: #0d0d0d;
   --icon-common-color-in-active: #cfcfcf;
+  --action-bar-general-text-heading-color: #0d0d0d;
   --container-radius-xsm: 12;
   --container-radius-md: 20;
   --container-border-width-md: 2;
@@ -202,6 +203,7 @@
   --background-color-secondary-in-active: #cfcfcf;
   --background-color-tertiary-active: #ffffff;
   --background-color-tertiary-in-active: #6e6e6e;
+  --background-color-blur: #f3f3f3bf;
   --stroke-color-secondary-active: #0d0d0d;
   --stroke-color-secondary-in-active: #cfcfcf;
   --stroke-color-primary-active: #2fd3cb;

@@ -789,6 +789,16 @@
       }
     }
   },
+  "actionBar": {
+    "general": {
+      "text-heading": {
+        "color": {
+          "value": "#0d0d0d",
+          "type": "color"
+        }
+      }
+    }
+  },
   "container": {
     "radius": {
       "xsm": {
@@ -1274,6 +1284,10 @@
           "value": "#6e6e6e",
           "type": "color"
         }
+      },
+      "blur": {
+        "value": "#f3f3f3bf",
+        "type": "color"
       }
     }
   },
