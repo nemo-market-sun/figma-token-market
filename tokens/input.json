@@ -657,28 +657,48 @@
       }
     }
   },
+  "img": {
+    "listItem": {
+      "product": {
+        "general": {
+          "size": {
+            "value": 112,
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "size": {
+      "md": {
+        "value": 112,
+        "type": "sizing"
+      }
+    }
+  },
   "blockTitle": {
-    "layout": {
-      "spacing": {
-        "value": 16,
-        "type": "spacing"
-      },
-      "padding": {
-        "top": {
-          "value": 24,
+    "general": {
+      "container": {
+        "spacing": {
+          "value": 16,
           "type": "spacing"
         },
-        "right": {
-          "value": 48,
-          "type": "spacing"
-        },
-        "bottom": {
-          "value": 32,
-          "type": "spacing"
-        },
-        "left": {
-          "value": 24,
-          "type": "spacing"
+        "padding": {
+          "top": {
+            "value": 24,
+            "type": "spacing"
+          },
+          "right": {
+            "value": 48,
+            "type": "spacing"
+          },
+          "bottom": {
+            "value": 32,
+            "type": "spacing"
+          },
+          "left": {
+            "value": 24,
+            "type": "spacing"
+          }
         }
       }
     },
@@ -774,6 +794,24 @@
           "textDecoration": "none"
         },
         "type": "typography"
+      }
+    }
+  },
+  "listItem": {
+    "product": {
+      "general": {
+        "container": {
+          "padding": {
+            "all": {
+              "value": 16,
+              "type": "spacing"
+            }
+          },
+          "spacing": {
+            "value": 8,
+            "type": "spacing"
+          }
+        }
       }
     }
   },

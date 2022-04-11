@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 08 Apr 2022 05:20:18 GMT
+ * Generated on Mon, 11 Apr 2022 07:29:33 GMT
  */
 
 :root {
@@ -119,11 +119,13 @@
   --block-container-padding-right: 24;
   --block-container-padding-bottom: 32;
   --block-container-padding-left: 24;
-  --block-title-layout-spacing: 16;
-  --block-title-layout-padding-top: 24;
-  --block-title-layout-padding-right: 48;
-  --block-title-layout-padding-bottom: 32;
-  --block-title-layout-padding-left: 24;
+  --img-list-item-product-general-size: 112;
+  --img-size-md: 112;
+  --block-title-general-container-spacing: 16;
+  --block-title-general-container-padding-top: 24;
+  --block-title-general-container-padding-right: 48;
+  --block-title-general-container-padding-bottom: 32;
+  --block-title-general-container-padding-left: 24;
   --block-title-text-heading-bg-color: #e7e7e7;
   --block-title-text-heading-color: #0d0d0d;
   --block-title-text-heading-color-caution: #ff0000;
@@ -134,6 +136,8 @@
   --body-default-02: [object Object];
   --body-light-01: [object Object];
   --body-light-02: [object Object];
+  --list-item-product-general-container-padding-all: 16;
+  --list-item-product-general-container-spacing: 8;
   --icon-common-color-active: #0d0d0d;
   --icon-common-color-in-active: #cfcfcf;
   --action-bar-general-text-heading-color: #0d0d0d;
