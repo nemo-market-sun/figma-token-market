@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 11 Apr 2022 07:29:33 GMT
+// Generated on Mon, 11 Apr 2022 07:37:57 GMT
 
 $button-action-bar-container-radius: 12;
 $button-action-bar-container-color: #ffffff;
@@ -136,6 +136,18 @@ $body-light-01: [object Object];
 $body-light-02: [object Object];
 $list-item-product-general-container-padding-all: 16;
 $list-item-product-general-container-spacing: 8;
+$list-item-product-general-text-product-name-color-active: #0d0d0d;
+$list-item-product-general-text-product-name-color-in-active: #9e9e9e;
+$list-item-product-general-text-product-name-color-focussed: #0d0d0d;
+$list-item-product-general-text-product-name-color-pressed: #3d3d3d;
+$list-item-product-general-text-price-color-active: #275c5d;
+$list-item-product-general-text-price-color-in-active: #96c9c3;
+$list-item-product-general-text-price-color-focussed: #5d9390;
+$list-item-product-general-text-price-color-pressed: #275c5d;
+$list-item-product-general-text-discount-color-active: #5d9390;
+$list-item-product-general-text-discount-color-in-active: #96c9c3;
+$list-item-product-general-text-discount-color-focussed: #96c9c3;
+$list-item-product-general-text-discount-color-pressed: #275c5d;
 $icon-common-color-active: #0d0d0d;
 $icon-common-color-in-active: #cfcfcf;
 $action-bar-general-text-heading-color: #0d0d0d;
@@ -228,7 +240,7 @@ $color-main-tertiary-faded: #d3f5f1;
 $color-main-tertiary-highlighted: #b0e4dd;
 $color-main-tertiary-default: #96c9c3;
 $color-main-tertiary-dimmed: #5d9390;
-$color-main-tertiary-dark: #123f43;
+$color-main-tertiary-dark: #275c5d;
 $color-sub-bg-dark-primary-faded: rgba(61, 61, 61, 0.5);
 $color-sub-bg-dark-primary-highlighted: #ffffff;
 $color-sub-bg-dark-primary-default: #ffffff;
