@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 11 Apr 2022 07:48:10 GMT
+ * Generated on Mon, 11 Apr 2022 08:28:20 GMT
  */
 
 :root {
@@ -198,6 +198,7 @@
   --padding-container-xlg: 48;
   --padding-grid-margine-default: 16;
   --padding-body-bottom-md: 160;
+  --padding-body-bottom-none: 0;
   --padding-scaler: 8;
   --padding-base: 24;
   --headline-default-01: [object Object];

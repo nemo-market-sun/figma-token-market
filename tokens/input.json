@@ -1099,6 +1099,10 @@
         "md": {
           "value": 160,
           "type": "spacing"
+        },
+        "none": {
+          "value": 0,
+          "type": "spacing"
         }
       }
     },
