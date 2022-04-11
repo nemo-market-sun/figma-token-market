@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 11 Apr 2022 07:37:57 GMT
+ * Generated on Mon, 11 Apr 2022 07:48:10 GMT
  */
 
 :root {
@@ -115,6 +115,9 @@
   --block-general-container-md-padding-all: 12;
   --block-general-container-md-spacing: 8;
   --block-general-container-color-active: #ffffff;
+  --block-general-container-color-in-active: #cfcfcf80;
+  --block-general-container-color-focussed: #ffffff;
+  --block-general-container-color-pressed: #e7e7e7;
   --block-container-padding-top: 24;
   --block-container-padding-right: 24;
   --block-container-padding-bottom: 32;

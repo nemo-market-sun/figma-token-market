@@ -635,6 +635,18 @@
         "color--active": {
           "value": "#ffffff",
           "type": "color"
+        },
+        "color--inActive": {
+          "value": "#cfcfcf80",
+          "type": "color"
+        },
+        "color--focussed": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "color--pressed": {
+          "value": "#e7e7e7",
+          "type": "color"
         }
       }
     },
