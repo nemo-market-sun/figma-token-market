@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 11 Apr 2022 08:28:20 GMT
+ * Generated on Mon, 11 Apr 2022 12:17:22 GMT
  */
 
 :root {
@@ -67,7 +67,9 @@
   --button-text-button-tertiary-text-color-in-active: #9e9e9e;
   --button-text-button-tertiary-text-color-focussed: #0d0d0d;
   --button-text-button-tertiary-text-color-pressed: #3d3d3d;
-  --button-input-icon-general-color-active: #3d3d3d;
+  --button-input-icon-clear-general-color-active: #3d3d3d;
+  --button-input-icon-valid-general-color-active: #2ab2af;
+  --button-input-icon-invalid-general-color-active: #ff0000;
   --button-input-icon-general-color-in-active: #0d0d0d80;
   --button-input-icon-general-color-focussed: #555555;
   --button-input-icon-general-color-pressed: #252525;

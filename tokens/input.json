@@ -322,12 +322,32 @@
       }
     },
     "input": {
-      "icon": {
+      "icon-clear": {
         "general": {
           "color--active": {
             "value": "#3d3d3d",
             "type": "color"
-          },
+          }
+        }
+      },
+      "icon-valid": {
+        "general": {
+          "color--active": {
+            "value": "#2ab2af",
+            "type": "color"
+          }
+        }
+      },
+      "icon-invalid": {
+        "general": {
+          "color--active": {
+            "value": "#ff0000",
+            "type": "color"
+          }
+        }
+      },
+      "icon": {
+        "general": {
           "color--inActive": {
             "value": "#0d0d0d80",
             "type": "color"
