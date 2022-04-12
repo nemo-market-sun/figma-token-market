@@ -86,6 +86,10 @@
           "color--pressed": {
             "value": "#2ab2af",
             "type": "color"
+          },
+          "color--caution": {
+            "value": "#ff0000",
+            "type": "color"
           }
         },
         "border": {
@@ -104,6 +108,10 @@
           "color--pressed": {
             "value": "#2ab2af",
             "type": "color"
+          },
+          "color--caution": {
+            "value": "#ff0000",
+            "type": "color"
           }
         },
         "text": {
@@ -121,6 +129,10 @@
           },
           "color--pressed": {
             "value": "#3d3d3d",
+            "type": "color"
+          },
+          "color--caution": {
+            "value": "#ffffff",
             "type": "color"
           }
         }
