@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 12 Apr 2022 12:38:16 GMT
+ * Generated on Tue, 12 Apr 2022 12:51:41 GMT
  */
 
 :root {
@@ -137,6 +137,7 @@
   --block-general-container-color-focussed: #ffffff;
   --block-general-container-color-pressed: #e7e7e7;
   --block-product-details-container-spacing: 16;
+  --block-product-details-elements-spacing: 24;
   --img-list-item-product-general-size: 112;
   --img-product-details-product-general-size: 280;
   --img-size-md: 112;
@@ -194,6 +195,8 @@
   --spacing-800: 32;
   --spacing-900: 36;
   --spacing-1000: 40;
+  --spacing-1100: 44;
+  --spacing-1200: 48;
   --spacing-elements-xsm: 16;
   --spacing-elements-md: 20;
   --spacing-elements-lg: 24;
@@ -204,6 +207,8 @@
   --spacing-elements-xxxsm: 8;
   --spacing-elements-xxxxsm: 4;
   --spacing-grid-gutter-default: 16;
+  --spacing-grid-gutter-double: 32;
+  --spacing-grid-gutter-triple: 48;
   --spacing-scaler: 4;
   --spacing-base: 16;
   --padding-150: 4;

@@ -754,6 +754,12 @@
           "value": 16,
           "type": "spacing"
         }
+      },
+      "elements": {
+        "spacing": {
+          "value": 24,
+          "type": "spacing"
+        }
       }
     }
   },
@@ -1131,6 +1137,14 @@
       "value": 40,
       "type": "spacing"
     },
+    "1100": {
+      "value": 44,
+      "type": "spacing"
+    },
+    "1200": {
+      "value": 48,
+      "type": "spacing"
+    },
     "elements": {
       "xsm": {
         "value": 16,
@@ -1172,6 +1186,14 @@
     "grid-gutter": {
       "default": {
         "value": 16,
+        "type": "spacing"
+      },
+      "double": {
+        "value": 32,
+        "type": "spacing"
+      },
+      "triple": {
+        "value": 48,
         "type": "spacing"
       }
     },
