@@ -713,6 +713,18 @@
           "type": "spacing"
         }
       },
+      "container-lg": {
+        "padding": {
+          "all": {
+            "value": 24,
+            "type": "spacing"
+          }
+        },
+        "spacing": {
+          "value": 8,
+          "type": "spacing"
+        }
+      },
       "container": {
         "color--active": {
           "value": "#ffffff",
@@ -1068,6 +1080,26 @@
     "elements": {
       "xsm": {
         "value": 16,
+        "type": "spacing"
+      },
+      "md": {
+        "value": 20,
+        "type": "spacing"
+      },
+      "lg": {
+        "value": 24,
+        "type": "spacing"
+      },
+      "xlg": {
+        "value": 28,
+        "type": "spacing"
+      },
+      "xxlg": {
+        "value": 32,
+        "type": "spacing"
+      },
+      "xxxlg": {
+        "value": 36,
         "type": "spacing"
       },
       "xxsm": {
