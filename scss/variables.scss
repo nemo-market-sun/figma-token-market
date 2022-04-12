@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 12 Apr 2022 05:20:02 GMT
+// Generated on Tue, 12 Apr 2022 05:40:33 GMT
 
 $button-action-bar-container-radius: 12;
 $button-action-bar-container-color: #ffffff;
@@ -25,9 +25,18 @@ $button-block-button-primary-text-color-active: #0d0d0d;
 $button-block-button-primary-text-color-in-active: #9e9e9e;
 $button-block-button-primary-text-color-focussed: #0d0d0d;
 $button-block-button-primary-text-color-pressed: #3d3d3d;
-$button-block-button-primary-text-color-caution: #ffffff;
+$button-block-button-caution-text-color-active: #ffffff;
+$button-block-button-caution-text-color-in-active: #9e9e9e;
+$button-block-button-caution-text-color-focussed: #ffffff;
+$button-block-button-caution-text-color-pressed: #e7e7e7;
 $button-block-button-caution-container-color-active: #ff0000;
-$button-block-button-caution-border-color-caution: #ff0000;
+$button-block-button-caution-container-color-in-active: #ffb7b780;
+$button-block-button-caution-container-color-focussed: #ff6565;
+$button-block-button-caution-container-color-pressed: #c20202;
+$button-block-button-caution-border-color-active: #ff0000;
+$button-block-button-caution-border-color-in-active: #ffb7b780;
+$button-block-button-caution-border-color-focussed: #ff6565;
+$button-block-button-caution-border-color-pressed: #c20202;
 $button-block-button-secondary-container-color-active: #ffffff;
 $button-block-button-secondary-container-color-in-active: #cfcfcf80;
 $button-block-button-secondary-container-color-focussed: #ffffff;
