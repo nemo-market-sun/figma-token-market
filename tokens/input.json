@@ -86,10 +86,6 @@
           "color--pressed": {
             "value": "#2ab2af",
             "type": "color"
-          },
-          "color--caution": {
-            "value": "#ff0000",
-            "type": "color"
           }
         },
         "border": {
@@ -107,10 +103,6 @@
           },
           "color--pressed": {
             "value": "#2ab2af",
-            "type": "color"
-          },
-          "color--caution": {
-            "value": "#ff0000",
             "type": "color"
           }
         },
@@ -133,6 +125,20 @@
           },
           "color--caution": {
             "value": "#ffffff",
+            "type": "color"
+          }
+        }
+      },
+      "caution": {
+        "container": {
+          "color--active": {
+            "value": "#ff0000",
+            "type": "color"
+          }
+        },
+        "border": {
+          "color--caution": {
+            "value": "#ff0000",
             "type": "color"
           }
         }

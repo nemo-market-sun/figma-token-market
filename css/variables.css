@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 12 Apr 2022 03:36:08 GMT
+ * Generated on Tue, 12 Apr 2022 05:20:02 GMT
  */
 
 :root {
@@ -19,17 +19,17 @@
   --button-block-button-primary-container-color-in-active: #8aeee7;
   --button-block-button-primary-container-color-focussed: #5ce1d8;
   --button-block-button-primary-container-color-pressed: #2ab2af;
-  --button-block-button-primary-container-color-caution: #ff0000;
   --button-block-button-primary-border-color-active: #2fd3cb;
   --button-block-button-primary-border-color-in-active: #8aeee7;
   --button-block-button-primary-border-color-focussed: #5ce1d8;
   --button-block-button-primary-border-color-pressed: #2ab2af;
-  --button-block-button-primary-border-color-caution: #ff0000;
   --button-block-button-primary-text-color-active: #0d0d0d;
   --button-block-button-primary-text-color-in-active: #9e9e9e;
   --button-block-button-primary-text-color-focussed: #0d0d0d;
   --button-block-button-primary-text-color-pressed: #3d3d3d;
   --button-block-button-primary-text-color-caution: #ffffff;
+  --button-block-button-caution-container-color-active: #ff0000;
+  --button-block-button-caution-border-color-caution: #ff0000;
   --button-block-button-secondary-container-color-active: #ffffff;
   --button-block-button-secondary-container-color-in-active: #cfcfcf80;
   --button-block-button-secondary-container-color-focussed: #ffffff;
