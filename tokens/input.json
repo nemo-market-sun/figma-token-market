@@ -748,22 +748,12 @@
         }
       }
     },
-    "container": {
-      "paddingTop": {
-        "value": 24,
-        "type": "spacing"
-      },
-      "paddingRight": {
-        "value": 24,
-        "type": "spacing"
-      },
-      "paddingBottom": {
-        "value": 32,
-        "type": "spacing"
-      },
-      "paddingLeft": {
-        "value": 24,
-        "type": "spacing"
+    "productDetails": {
+      "container": {
+        "spacing": {
+          "value": 16,
+          "type": "spacing"
+        }
       }
     }
   },
