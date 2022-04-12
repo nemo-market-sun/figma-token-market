@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 12 Apr 2022 06:29:49 GMT
+ * Generated on Tue, 12 Apr 2022 06:32:32 GMT
  */
 
 :root {
@@ -102,6 +102,7 @@
   --input-text-input-border-color-focussed: #e7e7e7;
   --input-text-input-border-color-pressed: #b6b6b6;
   --input-text-input-container-padding-left: 20;
+  --input-text-input-container-padding-right: 20;
   --input-general-border-width-activated: 2;
   --input-general-border-color-activated: #2fd3cb;
   --input-general-border-color-caution: #ff6565;

@@ -578,6 +578,10 @@
           "left": {
             "value": 20,
             "type": "spacing"
+          },
+          "right": {
+            "value": 20,
+            "type": "spacing"
           }
         }
       }
