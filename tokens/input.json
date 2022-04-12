@@ -584,10 +584,6 @@
           "value": "#868686",
           "type": "color"
         },
-        "color--active-copy": {
-          "value": "#868686",
-          "type": "color"
-        },
         "color--focussed": {
           "value": "#9e9e9e",
           "type": "color"
@@ -597,6 +593,16 @@
           "type": "color"
         },
         "color--activated": {
+          "value": "#868686",
+          "type": "color"
+        },
+        "color--caution": {
+          "value": "#ff0000",
+          "type": "color"
+        }
+      },
+      "text-hint": {
+        "color--active": {
           "value": "#868686",
           "type": "color"
         },
