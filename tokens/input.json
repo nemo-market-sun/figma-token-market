@@ -778,9 +778,23 @@
         }
       }
     },
+    "productDetails": {
+      "product": {
+        "general": {
+          "size": {
+            "value": 280,
+            "type": "sizing"
+          }
+        }
+      }
+    },
     "size": {
       "md": {
         "value": 112,
+        "type": "sizing"
+      },
+      "xlg": {
+        "value": 280,
         "type": "sizing"
       }
     }
@@ -1019,6 +1033,30 @@
         "color": {
           "value": "#0d0d0d",
           "type": "color"
+        }
+      }
+    }
+  },
+  "productDetails": {
+    "product": {
+      "general": {
+        "text-productName": {
+          "color--active": {
+            "value": "#0d0d0d",
+            "type": "color"
+          }
+        },
+        "text-price": {
+          "color--active": {
+            "value": "#275c5d",
+            "type": "color"
+          }
+        },
+        "text-discount": {
+          "color--active": {
+            "value": "#5d9390",
+            "type": "color"
+          }
         }
       }
     }
@@ -2182,6 +2220,10 @@
     },
     "2700": {
       "value": 112,
+      "type": "sizing"
+    },
+    "6900": {
+      "value": 280,
       "type": "sizing"
     },
     "base": {

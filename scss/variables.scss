@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 12 Apr 2022 09:49:23 GMT
+// Generated on Tue, 12 Apr 2022 12:03:12 GMT
 
 $button-action-bar-container-radius: 12;
 $button-action-bar-container-color: #ffffff;
@@ -139,7 +139,9 @@ $block-container-padding-right: 24;
 $block-container-padding-bottom: 32;
 $block-container-padding-left: 24;
 $img-list-item-product-general-size: 112;
+$img-product-details-product-general-size: 280;
 $img-size-md: 112;
+$img-size-xlg: 280;
 $block-title-general-container-spacing: 16;
 $block-title-general-container-padding-top: 24;
 $block-title-general-container-padding-right: 48;
@@ -174,6 +176,9 @@ $title-general-text-heading-color-caution: #ff0000;
 $title-general-text-body-color: #0d0d0d;
 $title-general-text-body-color-caution: #ff0000;
 $action-bar-general-text-heading-color: #0d0d0d;
+$product-details-product-general-text-product-name-color-active: #0d0d0d;
+$product-details-product-general-text-price-color-active: #275c5d;
+$product-details-product-general-text-discount-color-active: #5d9390;
 $container-radius-xsm: 12;
 $container-radius-md: 20;
 $container-border-width-md: 2;
@@ -376,6 +381,7 @@ $size-1900: 80rem;
 $size-2000: 84rem;
 $size-2400: 100rem;
 $size-2700: 112rem;
+$size-6900: 280rem;
 $size-base: 20rem;
 $size-scaler: 4rem;
 $font-family-main: Pretendard Variable;
