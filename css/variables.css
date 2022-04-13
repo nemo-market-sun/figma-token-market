@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 13 Apr 2022 05:23:20 GMT
+ * Generated on Wed, 13 Apr 2022 06:30:25 GMT
  */
 
 :root {
@@ -128,7 +128,8 @@
   --block-general-container-md-radius: 20;
   --block-general-container-md-padding-all: 12;
   --block-general-container-md-spacing-sm: 8;
-  --block-general-container-lg-padding-all: 24;
+  --block-general-container-lg-padding-all-md: 24;
+  --block-general-container-lg-padding-all-sm: 20;
   --block-general-container-lg-spacing-lg: 32;
   --block-general-container-lg-spacing-md: 24;
   --block-general-container-color-active: #ffffff;
@@ -180,6 +181,7 @@
   --title-general-text-body-color: #0d0d0d;
   --title-general-text-body-color-caution: #ff0000;
   --action-bar-general-text-heading-color: #0d0d0d;
+  --action-bar-general-text-body-color-copy: #0d0d0d;
   --product-details-product-general-text-product-name-color-active: #0d0d0d;
   --product-details-product-general-text-price-color-active: #275c5d;
   --product-details-product-general-text-discount-color-active: #5d9390;

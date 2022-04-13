@@ -711,8 +711,12 @@
       },
       "container-lg": {
         "padding": {
-          "all": {
+          "all-md": {
             "value": 24,
+            "type": "spacing"
+          },
+          "all-sm": {
+            "value": 20,
             "type": "spacing"
           }
         },
@@ -1059,6 +1063,12 @@
     "general": {
       "text-heading": {
         "color": {
+          "value": "#0d0d0d",
+          "type": "color"
+        }
+      },
+      "text-body": {
+        "color-copy": {
           "value": "#0d0d0d",
           "type": "color"
         }
