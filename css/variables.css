@@ -1,13 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Tue, 12 Apr 2022 12:51:41 GMT
+ * Generated on Wed, 13 Apr 2022 03:11:15 GMT
  */
 
 :root {
   --button-action-bar-container-radius: 12;
   --button-action-bar-container-color: #ffffff;
-  --button-action-bar-container-border-color-active: #ffffff;
-  --button-action-bar-container-border-color-in-active: #f3f3f3;
   --button-action-bar-general-container-padding-all: 12;
   --button-block-button-level-2-border-width: 1;
   --button-block-button-level-1-border-width: 0;
@@ -167,6 +165,11 @@
   --list-item-product-general-text-discount-color-in-active: #96c9c3;
   --list-item-product-general-text-discount-color-focussed: #96c9c3;
   --list-item-product-general-text-discount-color-pressed: #275c5d;
+  --footer-general-container-padding-left: 8;
+  --footer-general-container-padding-right: 8;
+  --footer-general-elements-spacing: 12;
+  --footer-tertiary-text-color: #9e9e9e;
+  --footer-tertiary-img-color: #9e9e9e;
   --icon-common-color-active: #0d0d0d;
   --icon-common-color-in-active: #cfcfcf;
   --title-block-title-text-heading-bg-color: #e7e7e7;
