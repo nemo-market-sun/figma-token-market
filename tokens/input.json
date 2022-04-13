@@ -704,7 +704,7 @@
             "type": "spacing"
           }
         },
-        "spacing": {
+        "spacing-sm": {
           "value": 8,
           "type": "spacing"
         }
@@ -716,8 +716,12 @@
             "type": "spacing"
           }
         },
-        "spacing": {
+        "spacing-lg": {
           "value": 32,
+          "type": "spacing"
+        },
+        "spacing-md": {
+          "value": 24,
           "type": "spacing"
         }
       },
