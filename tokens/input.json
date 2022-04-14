@@ -2044,6 +2044,12 @@
           "type": "color"
         }
       }
+    },
+    "screenBG": {
+      "default": {
+        "value": "#f3f3f3",
+        "type": "color"
+      }
     }
   },
   "radius": {

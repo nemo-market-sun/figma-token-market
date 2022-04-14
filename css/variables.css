@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 13 Apr 2022 06:30:25 GMT
+ * Generated on Thu, 14 Apr 2022 02:17:44 GMT
  */
 
 :root {
@@ -350,6 +350,7 @@
   --color-system-primary-default: #ff0000;
   --color-system-primary-dimmed: #c20202;
   --color-system-primary-dark: #850101;
+  --color-screen-bg-default: #f3f3f3;
   --radius-100: 8;
   --radius-200: 12;
   --radius-300: 16;
