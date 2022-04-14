@@ -727,6 +727,10 @@
         "spacing-md": {
           "value": 24,
           "type": "spacing"
+        },
+        "spacing-sm": {
+          "value": 20,
+          "type": "spacing"
         }
       },
       "container": {
@@ -996,6 +1000,20 @@
       "img": {
         "color": {
           "value": "#9e9e9e",
+          "type": "color"
+        }
+      }
+    },
+    "secondary": {
+      "text": {
+        "color": {
+          "value": "#555555",
+          "type": "color"
+        }
+      },
+      "border": {
+        "color": {
+          "value": "#cfcfcf80",
           "type": "color"
         }
       }
